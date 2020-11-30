@@ -86,7 +86,7 @@ public class Admin_Front extends BaseTest {
 		webtest.runJs("window.scrollBy(0,500)");
 		Thread.sleep(2000);
 		webtest.click("xpath=//a[contains(text(),'商品咨询')]");
-		webtest.type("id=goods_ask_content", "为什么为什么");
+		webtest.type("id=goods_ask_content", "为什么");
 		webtest.click("xpath=//button[contains(text(),'提交咨询')]");
 		boolean flag = webtest.isTextPresent("OK");
 		assertEquals(flag, true);

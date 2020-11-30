@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="com.freemarker.JavaMailTestListener"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.webtest.demo.Admin_SaleManagement">
+        <methods>
+          <include name="test_print"/>
+          <include name="test_paying_pay"/>
+          <include name="test_refund"/>
+          <include name="login"/>
+          <include name="doAfterMethod"/>
+          <include name="test_delete1"/>
+          <include name="test_search_byno"/>
+          <include name="test_search_by_buyer"/>
+          <include name="test_pull"/>
+          <include name="test_search_by_delivery"/>
+          <include name="doBeforeClass"/>
+          <include name="test_search_by_pay_code"/>
+        </methods>
+      </class> <!-- com.webtest.demo.Admin_SaleManagement -->
+      <class name="com.webtest.demo.Admin_Front">
+        <methods>
+          <include name="test_buy"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeClass"/>
+          <include name="test_sraech_add"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.webtest.demo.Admin_Front -->
+      <class name="com.webtest.demo.Admin_Front_UserCenter">
+        <methods>
+          <include name="test_collection_delete"/>
+          <include name="login"/>
+          <include name="test_cancel"/>
+          <include name="doAfterMethod"/>
+          <include name="test_delete_address"/>
+          <include name="test_delete2"/>
+          <include name="test_ask"/>
+          <include name="test_draw_money"/>
+          <include name="test_update_address" invocation-numbers="0"/>
+          <include name="test_delete_back"/>
+          <include name="test_pay"/>
+          <include name="test_money_search"/>
+          <include name="test_search"/>
+          <include name="test_back" invocation-numbers="0 1"/>
+          <include name="test_update_pwd" invocation-numbers="0"/>
+          <include name="doBeforeClass"/>
+          <include name="test_cancel2"/>
+        </methods>
+      </class> <!-- com.webtest.demo.Admin_Front_UserCenter -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [s1] -->

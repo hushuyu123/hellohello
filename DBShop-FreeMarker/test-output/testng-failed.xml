@@ -6,17 +6,11 @@
   </listeners>
   <test thread-count="5" name="test1(failed)">
     <classes>
-      <class name="com.webtest.demo.Admin_Front">
+      <class name="com.webtest.demo.Demo">
         <methods>
-          <include name="test_buy"/>
-          <include name="doAfterMethod"/>
-          <include name="test_add_byclick"/>
-          <include name="test_good_ask"/>
-          <include name="doBeforeClass"/>
-          <include name="test_sraech_add"/>
-          <include name="login"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.webtest.demo.Admin_Front -->
+      </class> <!-- com.webtest.demo.Demo -->
     </classes>
   </test> <!-- test1(failed) -->
 </suite> <!-- Failed suite [s1] -->

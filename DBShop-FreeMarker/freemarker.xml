@@ -7,9 +7,8 @@
 
 	<test name="test1">
 			<classes>
-			<class name="com.webtest.demo.Admin_Front" />
-<!-- 
-			
+			<class name="com.webtest.demo.Demo" />
+			<!-- 
 			<class name="com.webtest.demo.Admin_Register" />
 			<class name="com.webtest.demo.Admin_Front_Login" />
 			<class name="com.webtest.demo.Admin_Front" />
